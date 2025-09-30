@@ -1,7 +1,7 @@
 #include "sim.h"
 
-#define CELL_ALIVE_COLOR 0xFF3366CC
-#define CELL_DEAD_COLOR  0xFFFFFFFF
+#define CELL_ALIVE_COLOR 0xBA11A6FF
+#define CELL_DEAD_COLOR  0xCEDDACCA
 
 void InitializeGameState(int grid[]) {
     for (int i = 0; i < TOTAL_CELLS; ++i) {
